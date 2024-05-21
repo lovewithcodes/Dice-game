@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Dicee</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon_package_v0.16/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon_package_v0.16/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon_package_v0.16/favicon-16x16.png">
+  <link rel="manifest" href="/favicon_package_v0.16/site.webmanifest">
+  <link rel="mask-icon" href="/favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+
+</head>
+
+<body class="containerBody">
+  <header>
+    <h1>Dice-game</h1>
+  </header>
+  <div class="container">
+    <h2 class="pop-out">Refresh Me</h2>
+
+    <div class="dice first">
+      <p>Player 1</p>
+      <div class="diceBg">
+        <img id="myImage" class="img1" src="images/dice6.png">
+      </div>
+    </div>
+
+    <div class="dice second">
+      <p>Player 2</p>
+      <div class="diceBg">
+        <img id="myImage" class="img2" src="images/dice6.png">
+      </div>
+    </div>
+
+  </div>
+
+  <div class="refreshPageBtn">
+    <div onclick="refreshPage()" class="container-button">
+      <div class="hover bt-1"></div>
+      <div class="hover bt-2"></div>
+      <div class="hover bt-3"></div>
+      <div class="hover bt-4"></div>
+      <div class="hover bt-5"></div>
+      <div class="hover bt-6"></div>
+      <button onclick="refreshPage()"></button>
+    </div>
+  </div>
+
+  <footer>
+    www 🎲 dice-game 🎲 com
+  </footer>
+
+  <script src="script.js" charset="utf-8"></script>
+</body>
+
+</html>
